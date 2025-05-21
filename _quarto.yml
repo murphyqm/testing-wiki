@@ -27,6 +27,7 @@ website:
 
 format:
   html:
+    highlight-style: a11y
     theme: cosmo
     toc: true
 

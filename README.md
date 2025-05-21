@@ -2,7 +2,7 @@
 
 Testing out various options for an easy-to-use wiki.
 
-This README is currently cloned across to the main page of the wiki, but this can be changed if it's not appropriate.
+If required, the index of the wiki can just copy the content from this readme.
 
 The aim of this is to:
 
