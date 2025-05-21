@@ -1,10 +1,39 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "training/example-placeholder-file.html",
+    "href": "training/example-placeholder-file.html",
+    "title": "This is an example placeholder file",
     "section": "",
-    "text": "About this site"
+    "text": "This is an example placeholder file\nHere is some content.\nHere is some more content.",
+    "crumbs": [
+      "Home",
+      "Training",
+      "This is an example placeholder file"
+    ]
+  },
+  {
+    "objectID": "misc/example-placeholder-file.html",
+    "href": "misc/example-placeholder-file.html",
+    "title": "This is an example placeholder file",
+    "section": "",
+    "text": "This is an example placeholder file\nHere is some content.\nHere is some more content.",
+    "crumbs": [
+      "Home",
+      "Misc",
+      "This is an example placeholder file"
+    ]
+  },
+  {
+    "objectID": "runbooks/example-placeholder-file.html",
+    "href": "runbooks/example-placeholder-file.html",
+    "title": "This is an example placeholder file",
+    "section": "",
+    "text": "This is an example placeholder file\nHere is some content.\nHere is some more content.",
+    "crumbs": [
+      "Home",
+      "Runbooks",
+      "This is an example placeholder file"
+    ]
   },
   {
     "objectID": "index.html",
@@ -12,5 +41,55 @@
     "title": "Wiki",
     "section": "",
     "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "example-placeholder-file.html",
+    "href": "example-placeholder-file.html",
+    "title": "This is an example placeholder file",
+    "section": "",
+    "text": "This is an example placeholder file\nHere is some content.\nHere is some more content."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "platforms-and-tools/example-placeholder-file.html",
+    "href": "platforms-and-tools/example-placeholder-file.html",
+    "title": "This is an example placeholder file",
+    "section": "",
+    "text": "This is an example placeholder file\nHere is some content.\nHere is some more content.",
+    "crumbs": [
+      "Home",
+      "Platforms and Tools",
+      "This is an example placeholder file"
+    ]
+  },
+  {
+    "objectID": "onboarding/example-placeholder-file.html",
+    "href": "onboarding/example-placeholder-file.html",
+    "title": "This is an example placeholder file",
+    "section": "",
+    "text": "This is an example placeholder file\nHere is some content.\nHere is some more content.",
+    "crumbs": [
+      "Home",
+      "Onboarding",
+      "This is an example placeholder file"
+    ]
+  },
+  {
+    "objectID": "team/example-placeholder-file.html",
+    "href": "team/example-placeholder-file.html",
+    "title": "This is an example placeholder file",
+    "section": "",
+    "text": "This is an example placeholder file\nHere is some content.\nHere is some more content.",
+    "crumbs": [
+      "Home",
+      "Team",
+      "This is an example placeholder file"
+    ]
   }
 ]
