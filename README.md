@@ -16,14 +16,26 @@ The aim of this is to:
 
 1. Create or upload a new file/folder and file
   ![Screenshot of GitHub interface and the new file option.](https://github.com/user-attachments/assets/3761d7cb-eb42-406e-a17c-0d5813f7519c)
+
+
 2. Either upload a markdown file, or create and edit one in browser. You can paste in images.
   ![Screenshot of GitHub file editor with text that reads "Here is my H1 title" and then "Here is some content"](https://github.com/user-attachments/assets/074ed78f-462d-42ec-adc7-256e8e6521ca)
+
+
 3. Add a file title. You can add it to a folder/create a new folder path here too by typing in `folder_name/file_name.md`. GitHub will automatically parse this. Ensure you give your file an `.md` file ending. We can decide on naming conventions.
    ![Screenshot of GitHub file editor with the file path dialogue highlighted and reading "path_to_file"](https://github.com/user-attachments/assets/028fe400-1487-4c9c-8cac-4f56e2bd5738)
+
+
 4. You can hit "Commit changes" when you want to save, and will be prompted with this dialogue to create a new branch. You can commit the changes to the branch (by clicking "Propose changes") and come back to modify it later.
    ![Screenshot of GitHub dialogue instructing you to add a commit message, with a button highlighted saying "Propose changes"](https://github.com/user-attachments/assets/64b72356-86ea-4d96-917c-a0497369d276)
+
+
 5. This will open the pull request dialogue. You can leave this page if you want to make more changes, or can select "Create pull request". Once a pull request is created, GitHub actions will automatically run a test to see that the website will compile.
-  ![Screenshot of GitHub pull request screen.](https://github.com/user-attachments/assets/05ab5e51-7b52-4d7f-987e-8f7a2501083a)
+  ![Screenshot of GitHub pull request drafting screen.](https://github.com/user-attachments/assets/05ab5e51-7b52-4d7f-987e-8f7a2501083a)
+
+6. You can see if your additions built correct, and merge the pull request.
+  ![Screenshot of GitHub pull request screen with passed checks.](https://github.com/user-attachments/assets/c072cbc7-af5f-43d2-8dab-f9d2f9e8147e)
+
 
 
 
