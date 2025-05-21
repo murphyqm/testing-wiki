@@ -3,13 +3,8 @@ project:
 
 website:
   title: "Wiki"
-  navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
   sidebar:
-    style: "floating"
+    style: "docked"
     search: true
     contents: 
       - auto: onboarding/
@@ -19,12 +14,11 @@ website:
       - auto: team/
       - auto: training/
       - auto: misc/
-    collapse-level: 2
+    collapse-level: 1
 
 format:
   html:
     theme: cosmo
-    css: styles.css
     toc: true
 
 
