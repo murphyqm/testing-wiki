@@ -1,0 +1,25 @@
+name: Warn About GitHub User-Attachment Images
+
+on:
+  pull_request:
+    paths:
+      - "**/*.md"
+
+jobs:
+  check-links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Find GitHub user-attachment links
+        run: |
+          echo "Checking for pasted GitHub UI image links..."
+          FOUND=$(grep -r --include="*.md" -Eo 'https://github\.com/user-attachments/assets/[^)\s]+' || true)
+          if [[ ! -z "$FOUND" ]]; then
+            echo "🚫 Detected pasted GitHub image URLs that won't work in Quarto:"
+            echo "$FOUND"
+            echo "Please download these images manually and commit them into your repo."
+            exit 1
+          else
+            echo "✅ No invalid pasted image links found."
+          fi
