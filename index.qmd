@@ -1,7 +1,8 @@
 {{< include README.md >}}
 
 1. Create or upload a new file/folder and file
-  ![Screenshot of GitHub interface and the new file option.](https://github.com/user-attachments/assets/3761d7cb-eb42-406e-a17c-0d5813f7519c)
+  ![Screenshot of GitHub interface and the new file option.](https://private-user-images.githubusercontent.com/9538529/446130922-3761d7cb-eb42-406e-a17c-0d5813f7519c.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDc4MzkzMTAsIm5iZiI6MTc0NzgzOTAxMCwicGF0aCI6Ii85NTM4NTI5LzQ0NjEzMDkyMi0zNzYxZDdjYi1lYjQyLTQwNmUtYTE3Yy0wZDU4MTNmNzUxOWMucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDUyMSUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTA1MjFUMTQ1MDEwWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9ZjY3MTFkNWUwMzA4Y2IyN2Y3MTU3NTNiZDBiODk3NWZiMDFlOGU3YjFjMTkyMjg3MTBjNzE4MjZiZjAxODI4MSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.27qkWuUnc2DVr2Z1Qise4TS0hw8U6K5J8X0mS5aEl0g)
+
 
 
 2. Either upload a markdown file, or create and edit one in browser. You can paste in images.
