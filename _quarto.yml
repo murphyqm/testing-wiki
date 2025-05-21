@@ -1,0 +1,31 @@
+project:
+  type: website
+
+website:
+  title: "Wiki"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+  sidebar:
+    style: "floating"
+    search: true
+    contents: 
+      - auto: onboarding/
+      - auto: team/
+      - auto: runbooks/
+      - auto: platforms-and-tools/
+      - auto: team/
+      - auto: training/
+      - auto: misc/
+    collapse-level: 2
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+
