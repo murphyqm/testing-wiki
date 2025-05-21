@@ -39,7 +39,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-06484fad4722108f498d8c00c46b7438.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-a3f1e9adf11972f50c37e52d4ee653e0.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -143,7 +143,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false">
+            <a href="./runbooks/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Runbooks</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -211,8 +211,8 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="false">
- <span class="menu-text">Misc</span></a>
+            <a href="./misc/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Miscellaneous</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -231,35 +231,52 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#testing-out-a-wiki-structure" id="toc-testing-out-a-wiki-structure" class="nav-link active" data-scroll-target="#testing-out-a-wiki-structure">Testing out a wiki structure</a>
+  <ul class="collapse">
+  <li><a href="#to-contribute" id="toc-to-contribute" class="nav-link" data-scroll-target="#to-contribute">To contribute</a></li>
+  <li><a href="#for-findability" id="toc-for-findability" class="nav-link" data-scroll-target="#for-findability">For findability</a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/murphyqm/testing-wiki/edit/main/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/murphyqm/testing-wiki/blob/main/index.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/murphyqm/testing-wiki/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Wiki</h1>
-</div>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
-<div class="quarto-title-meta">
 
-    
-  
-    
-  </div>
-  
+<section id="testing-out-a-wiki-structure" class="level1">
+<h1>Testing out a wiki structure</h1>
+<p>Testing out various options for an easy-to-use wiki.</p>
+<p>This README is currently cloned across to the main page of the wiki, but this can be changed if it’s not appropriate.</p>
+<p>The aim of this is to:</p>
+<ul>
+<li>Be very easy to use from an organisation/logistics point of view: no need to build anything or run anything</li>
+<li>To be totally doable and quick through the browser</li>
+<li>To encourage inclusion of useful team-relevant information (requiring a pull request)</li>
+<li>To be regularly pruned etc., but also to have a secure version control history so previous versions can be found if needed</li>
+<li>To work identically to just a plain git repo but with better in-file searching.</li>
+</ul>
+<section id="to-contribute" class="level2">
+<h2 class="anchored" data-anchor-id="to-contribute">To contribute</h2>
+<p>All you need to do is visit the GH repo and add a file in the appropriate folder. You can also create a subfolder if needed (to create hierarchical categories).</p>
+<p>You will be prompted to create a new branch to store your addition. You can wait until you’re happy with your addition before merging it back into the main branch. The site will then render and update to include your addition.</p>
+<p>If you want to see the rendered output of a work in progress, you can always put it in the “misc” folder and then run the workflow manually to check it looks correct, or simply add WIP (for work in progress) to the title.</p>
+<p>Each page of the rendered site also has a link to the repo location.</p>
+<p>You can also see the authors/contributors of any specific article by clicking the “view source” link to the right.</p>
+</section>
+<section id="for-findability" class="level2">
+<h2 class="anchored" data-anchor-id="for-findability">For findability</h2>
+<p>If your article/note is relevant to a certain area or field, but does not contain terms that someone might search for, consider adding in a list of keywords or themes somewhere in the body of the article so it will be picked up by the search function.</p>
 
 
-</header>
-
-
-<p>This is a Quarto website.</p>
-<p>To learn more about Quarto websites visit <a href="https://quarto.org/docs/websites" class="uri">https://quarto.org/docs/websites</a>.</p>
-
-
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -662,6 +679,26 @@ ul.task-list li input[type="checkbox"] {
   });
   </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Internal documentation of the Research Computing Team</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/murphyqm/testing-wiki/edit/main/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/murphyqm/testing-wiki/blob/main/index.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/murphyqm/testing-wiki/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/murphyqm/testing-wiki">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
 
 
 

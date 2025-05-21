@@ -4,20 +4,30 @@
     "href": "training/example-placeholder-file.html",
     "title": "This is an example placeholder file",
     "section": "",
-    "text": "This is an example placeholder file\nHere is some content.\nHere is some more content.",
+    "text": "This is an example placeholder file\nHere is some content.\nHere is some more content.\nThis section might include guidance on delivering training, pointers on where to find training material for different courses, our information on different locations for training.",
     "crumbs": [
       "Training",
       "This is an example placeholder file"
     ]
   },
   {
-    "objectID": "misc/example-placeholder-file.html",
-    "href": "misc/example-placeholder-file.html",
+    "objectID": "misc/index.html",
+    "href": "misc/index.html",
+    "title": "Miscellaneous",
+    "section": "",
+    "text": "Miscellaneous\nSections can also have landing pages if required.\nFor example, this section might contain small snippets of notes to be shared but that will be migrated elsewhere in the future (or else purged).",
+    "crumbs": [
+      "Miscellaneous"
+    ]
+  },
+  {
+    "objectID": "onboarding/example-placeholder-file.html",
+    "href": "onboarding/example-placeholder-file.html",
     "title": "This is an example placeholder file",
     "section": "",
-    "text": "This is an example placeholder file\nHere is some content.\nHere is some more content.",
+    "text": "This is an example placeholder file\nHere is some content.\nHere is some more content.\nHere are some keywords or tags to try to make this findable: personal development, documentation, to-do list, processes.",
     "crumbs": [
-      "Misc",
+      "Onboarding",
       "This is an example placeholder file"
     ]
   },
@@ -26,7 +36,7 @@
     "href": "runbooks/example-placeholder-file.html",
     "title": "This is an example placeholder file",
     "section": "",
-    "text": "This is an example placeholder file\nHere is some content.\nHere is some more content.",
+    "text": "This is an example placeholder file\nHere is some content.\nHere is some more content.\nHere are some keywords for testing search capabilities: Python, Jupyter notebooks, conda, environments, platforms.",
     "crumbs": [
       "Runbooks",
       "This is an example placeholder file"
@@ -35,29 +45,53 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Wiki",
+    "title": "Testing out a wiki structure",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "Testing out various options for an easy-to-use wiki.\nThis README is currently cloned across to the main page of the wiki, but this can be changed if it’s not appropriate.\nThe aim of this is to:\n\nBe very easy to use from an organisation/logistics point of view: no need to build anything or run anything\nTo be totally doable and quick through the browser\nTo encourage inclusion of useful team-relevant information (requiring a pull request)\nTo be regularly pruned etc., but also to have a secure version control history so previous versions can be found if needed\nTo work identically to just a plain git repo but with better in-file searching.\n\n\n\nAll you need to do is visit the GH repo and add a file in the appropriate folder. You can also create a subfolder if needed (to create hierarchical categories).\nYou will be prompted to create a new branch to store your addition. You can wait until you’re happy with your addition before merging it back into the main branch. The site will then render and update to include your addition.\nIf you want to see the rendered output of a work in progress, you can always put it in the “misc” folder and then run the workflow manually to check it looks correct, or simply add WIP (for work in progress) to the title.\nEach page of the rendered site also has a link to the repo location.\nYou can also see the authors/contributors of any specific article by clicking the “view source” link to the right.\n\n\n\nIf your article/note is relevant to a certain area or field, but does not contain terms that someone might search for, consider adding in a list of keywords or themes somewhere in the body of the article so it will be picked up by the search function."
+  },
+  {
+    "objectID": "index.html#to-contribute",
+    "href": "index.html#to-contribute",
+    "title": "Testing out a wiki structure",
+    "section": "",
+    "text": "All you need to do is visit the GH repo and add a file in the appropriate folder. You can also create a subfolder if needed (to create hierarchical categories).\nYou will be prompted to create a new branch to store your addition. You can wait until you’re happy with your addition before merging it back into the main branch. The site will then render and update to include your addition.\nIf you want to see the rendered output of a work in progress, you can always put it in the “misc” folder and then run the workflow manually to check it looks correct, or simply add WIP (for work in progress) to the title.\nEach page of the rendered site also has a link to the repo location.\nYou can also see the authors/contributors of any specific article by clicking the “view source” link to the right."
+  },
+  {
+    "objectID": "index.html#for-findability",
+    "href": "index.html#for-findability",
+    "title": "Testing out a wiki structure",
+    "section": "",
+    "text": "If your article/note is relevant to a certain area or field, but does not contain terms that someone might search for, consider adding in a list of keywords or themes somewhere in the body of the article so it will be picked up by the search function."
   },
   {
     "objectID": "platforms-and-tools/example-placeholder-file.html",
     "href": "platforms-and-tools/example-placeholder-file.html",
     "title": "This is an example placeholder file",
     "section": "",
-    "text": "This is an example placeholder file\nHere is some content.\nHere is some more content.",
+    "text": "This is an example placeholder file\nHere is some content.\nHere is some more content.\nHere are some keywords: HPC, Aire, supercomputers, Service Now, outlook, confluence.",
     "crumbs": [
       "Platforms and Tools",
       "This is an example placeholder file"
     ]
   },
   {
-    "objectID": "onboarding/example-placeholder-file.html",
-    "href": "onboarding/example-placeholder-file.html",
+    "objectID": "runbooks/index.html",
+    "href": "runbooks/index.html",
+    "title": "Runbooks",
+    "section": "",
+    "text": "This is an example of a category that has an index file that’s shown when you click on it. In this case, I’ve made one that displays all the contents of this category.\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nReading Time\n\n\n\n\n\n\n\n\nThis is an example placeholder file\n\n\n1 min\n\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "Runbooks"
+    ]
+  },
+  {
+    "objectID": "misc/example-placeholder-file.html",
+    "href": "misc/example-placeholder-file.html",
     "title": "This is an example placeholder file",
     "section": "",
-    "text": "This is an example placeholder file\nHere is some content.\nHere is some more content.",
+    "text": "This is an example placeholder file\nHere is some content.\nHere is some more content.\nHere are some keyword to try to make this easily findable: bash, source code, MobaXTerm",
     "crumbs": [
-      "Onboarding",
+      "Miscellaneous",
       "This is an example placeholder file"
     ]
   },
@@ -66,7 +100,7 @@
     "href": "team/example-placeholder-file.html",
     "title": "This is an example placeholder file",
     "section": "",
-    "text": "This is an example placeholder file\nHere is some content.\nHere is some more content.",
+    "text": "This is an example placeholder file\nHere is some content.\nHere is some more content.\nSome keywords to test search capabilities: team development, training programmes, attendance, meetings, communciations",
     "crumbs": [
       "Team",
       "This is an example placeholder file"
