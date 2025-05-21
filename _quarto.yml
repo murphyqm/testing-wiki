@@ -3,6 +3,13 @@ project:
 
 website:
   title: "Wiki"
+  page-footer:
+    left: "Internal documentation of the Research Computing Team"
+    right: 
+      - icon: github
+        href: https://github.com/murphyqm/testing-wiki
+  repo-url: https://github.com/murphyqm/testing-wiki
+  repo-actions: [edit, source, issue]
   sidebar:
     style: "docked"
     search: true

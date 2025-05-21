@@ -1,0 +1,5 @@
+# Miscellaneous
+
+Sections can also have landing pages if required.
+
+For example, this section might contain small snippets of notes to be shared but that will be migrated elsewhere in the future (or else purged).

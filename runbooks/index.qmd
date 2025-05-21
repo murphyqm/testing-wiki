@@ -1,0 +1,7 @@
+---
+title: "Runbooks"
+listing:
+    type: table
+    fields: [title, reading-time]
+---
+This is an example of a category that has an index file that's shown when you click on it. In this case, I've made one that displays all the contents of this category.
