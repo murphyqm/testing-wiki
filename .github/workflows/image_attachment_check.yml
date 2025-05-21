@@ -4,6 +4,7 @@ on:
   pull_request:
     paths:
       - "**/*.md"
+      - "**/*.qmd"
 
 jobs:
   check-links:
