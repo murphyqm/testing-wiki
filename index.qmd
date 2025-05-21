@@ -1,26 +1,9 @@
-{{< include README.md >}}
+# Wiki
 
-1. Create or upload a new file/folder and file
-  ![Screenshot of GitHub interface and the new file option.](https://private-user-images.githubusercontent.com/9538529/446130922-3761d7cb-eb42-406e-a17c-0d5813f7519c.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDc4MzkzMTAsIm5iZiI6MTc0NzgzOTAxMCwicGF0aCI6Ii85NTM4NTI5LzQ0NjEzMDkyMi0zNzYxZDdjYi1lYjQyLTQwNmUtYTE3Yy0wZDU4MTNmNzUxOWMucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDUyMSUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTA1MjFUMTQ1MDEwWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9ZjY3MTFkNWUwMzA4Y2IyN2Y3MTU3NTNiZDBiODk3NWZiMDFlOGU3YjFjMTkyMjg3MTBjNzE4MjZiZjAxODI4MSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.27qkWuUnc2DVr2Z1Qise4TS0hw8U6K5J8X0mS5aEl0g)
+The aim of this is to:
 
-
-
-2. Either upload a markdown file, or create and edit one in browser. You can paste in images.
-  ![Screenshot of GitHub file editor with text that reads "Here is my H1 title" and then "Here is some content"](https://github.com/user-attachments/assets/074ed78f-462d-42ec-adc7-256e8e6521ca)
-
-
-3. Add a file title. You can add it to a folder/create a new folder path here too by typing in `folder_name/file_name.md`. GitHub will automatically parse this. Ensure you give your file an `.md` file ending. We can decide on naming conventions.
-   ![Screenshot of GitHub file editor with the file path dialogue highlighted and reading "path_to_file"](https://github.com/user-attachments/assets/028fe400-1487-4c9c-8cac-4f56e2bd5738)
-
-
-4. You can hit "Commit changes" when you want to save, and will be prompted with this dialogue to create a new branch. You can commit the changes to the branch (by clicking "Propose changes") and come back to modify it later.
-   ![Screenshot of GitHub dialogue instructing you to add a commit message, with a button highlighted saying "Propose changes"](https://github.com/user-attachments/assets/64b72356-86ea-4d96-917c-a0497369d276)
-
-
-5. This will open the pull request dialogue. You can leave this page if you want to make more changes, or can select "Create pull request". Once a pull request is created, GitHub actions will automatically run a test to see that the website will compile.
-  ![Screenshot of GitHub pull request drafting screen.](https://github.com/user-attachments/assets/05ab5e51-7b52-4d7f-987e-8f7a2501083a)
-
-6. You can see if your additions built correct, and merge the pull request.
-  ![Screenshot of GitHub pull request screen with passed checks.](https://github.com/user-attachments/assets/c072cbc7-af5f-43d2-8dab-f9d2f9e8147e)
-
-
+Be very easy to use from an organisation/logistics point of view: no need to build anything or run anything
+To be totally doable and quick through the browser
+To encourage inclusion of useful team-relevant information (requiring a pull request)
+To be regularly pruned etc., but also to have a secure version control history so previous versions can be found if needed
+To work identically to just a plain git repo but with better in-file searching.
