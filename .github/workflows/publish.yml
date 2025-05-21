@@ -1,9 +1,11 @@
 on:
   workflow_dispatch:
   push:
-    branches: main
+    branches: [main]
+  pull_request:
+    branches: [main]
 
-name: Quarto Publish
+name: Quarto test and publish
 
 jobs:
   build-deploy:
@@ -18,8 +20,13 @@ jobs:
         uses: quarto-dev/quarto-actions/setup@v2
 
       - name: Render and Publish
+        if: github.event_name != 'pull_request'  # Only publish on push to main, not on PRs
         uses: quarto-dev/quarto-actions/publish@v2
         with:
           target: gh-pages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Render only (for pull requests)
+        if: github.event_name == 'pull_request'
+        run: quarto render
